@@ -1,0 +1,12 @@
+services:
+  test:
+    image: nginx
+networks:
+  default:
+services:
+  test:
+    image: nginx
+networks:
+  default:
+    external: true
+    name: sg-123abc
