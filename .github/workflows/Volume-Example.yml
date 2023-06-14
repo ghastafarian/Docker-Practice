@@ -1,21 +1,4 @@
 services:
-  app:
-    image: nginx
-    volumes:
-      - data:/test
-volumes:
-  data:
-services:
-  app:
-    image: nginx
-    volumes:
-      - data:/test
-
-volumes:
-  data:
-    external: true
-    name: "fs-f534645"
-services:
   test:
     image: nginx
 volumes:
