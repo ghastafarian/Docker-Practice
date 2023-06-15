@@ -23,7 +23,7 @@ jobs:
         uses: imjohnbo/issue-bot@3d96848fb5e9a4a473bb81ae62b4b4866a56e93a
         with:
           assignees: "ghastafarian"
-          labels: "weekly sync, docs-team"
+          labels: "weekly sync, docs-team, help wanted"
           title: "Team sync"
           body: |
             ### Agenda
