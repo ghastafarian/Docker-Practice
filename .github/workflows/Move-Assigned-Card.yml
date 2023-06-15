@@ -11,4 +11,4 @@ jobs:
         with:
           project: Example-Project
           column: Todo
-          repo-token: ${{ secrets.PAT }}
+          repo-token: ${{ secrets.GH_PAT }}
