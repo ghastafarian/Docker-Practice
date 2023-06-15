@@ -9,6 +9,6 @@ jobs:
     steps:
       - uses: alex-page/github-project-automation-plus@7ffb872c64bd809d23563a130a0a97d01dfa8f43
         with:
-          project: Example-Project
+          project-url: https://github.com/users/ghastafarian/projects/6
           column: Todo
           repo-token: ${{ secrets.PAT }}
